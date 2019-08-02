@@ -1,0 +1,22 @@
+{
+  "name": "DevtorExtension",
+  "version": "0.1.0",
+  "summary": "A short description of DevtorExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ifeemily@gmail.com/DevtorExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ifeemily@gmail.com": "ifeemily@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ifeemily@gmail.com/DevtorExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DevtorExtension/Classes/**/*"
+}

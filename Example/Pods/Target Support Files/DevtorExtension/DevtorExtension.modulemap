@@ -1,0 +1,6 @@
+framework module DevtorExtension {
+  umbrella header "DevtorExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

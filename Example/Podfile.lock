@@ -1,0 +1,16 @@
+PODS:
+  - DevtorExtension (0.1.0)
+
+DEPENDENCIES:
+  - DevtorExtension (from `../`)
+
+EXTERNAL SOURCES:
+  DevtorExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DevtorExtension: 430445694a27ebe8178e2f04f117d3dfd63e3158
+
+PODFILE CHECKSUM: be575e6947a05dbb5e9f6c6b9407b7a8a93f9bbf
+
+COCOAPODS: 1.7.5
