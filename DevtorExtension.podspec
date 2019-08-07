@@ -9,8 +9,9 @@
 Pod::Spec.new do |s|
   s.name             = 'DevtorExtension'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DevtorExtension.'
-
+  s.summary          = 'Devtor extension is very easy to use for developer who is lazy for long code'
+  s.swift_version    = '4.0'
+  
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -18,17 +19,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO:
+* Foundation extension
+* UIKit extension
+* Other extension will included next release
                        DESC
 
-  s.homepage         = 'https://github.com/ifeemily@gmail.com/DevtorExtension'
+  s.homepage         = 'https://github.com/imfeemily/DevtorExtension'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ifeemily@gmail.com' => 'ifeemily@gmail.com' }
-  s.source           = { :git => 'https://github.com/ifeemily@gmail.com/DevtorExtension.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/imfeemily/DevtorExtension.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'DevtorExtension/Classes/**/*'
   
@@ -37,6 +41,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
 end

@@ -8,7 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3856784CCFE4374ACD27ED3F511C7CBE /* Pods-DevtorExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26288F165C17DCD040B4FF8206662343 /* Pods-DevtorExtension_Tests-dummy.m */; };
-		4A011E67CF5326BF3272398E5F3D3B6F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914A0108E4532277695957896C39FE0A /* ReplaceMe.swift */; };
+		4F00BBF122F81117002D3E3E /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F00BBF022F81117002D3E3E /* StringExtension.swift */; };
+		4F00BBF322F84761002D3E3E /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F00BBF222F84761002D3E3E /* UINavigationControllerExtension.swift */; };
+		4FAF6CDD22F926900095E920 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAF6CDC22F926900095E920 /* UIImageViewExtension.swift */; };
+		4FAF6CDF22F926A50095E920 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAF6CDE22F926A50095E920 /* UIImageExtension.swift */; };
+		4FFE017422F438C00085D072 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFE017322F438C00085D072 /* UIColorExtension.swift */; };
 		62FC71FC387233F88893548C6BDC0C29 /* DevtorExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 897D96B0FC248F9D035D37FD1A950125 /* DevtorExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		900322E9F34AF039035DBA8CE2180657 /* Pods-DevtorExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8883C9DC50DCCF56160284BAC58E52B /* Pods-DevtorExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2E4C54794DD5A165A698BCE8DAA1614 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -37,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1197F086CBFECEA5DDC6C3B2BA28C1B4 /* Pods_DevtorExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DevtorExtension_Example.framework; path = "Pods-DevtorExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1197F086CBFECEA5DDC6C3B2BA28C1B4 /* Pods_DevtorExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevtorExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1237A15D363E50D3C40287552B51B35D /* DevtorExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DevtorExtension.xcconfig; sourceTree = "<group>"; };
 		15CBAA4E3A03BB87311E541A137ECC5C /* Pods-DevtorExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DevtorExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1736CA51B6CF6BE3F6A815CF91D7D194 /* Pods-DevtorExtension_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DevtorExtension_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -45,20 +49,24 @@
 		26288F165C17DCD040B4FF8206662343 /* Pods-DevtorExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DevtorExtension_Tests-dummy.m"; sourceTree = "<group>"; };
 		2FE81CD932DEA69CC980FD1D0D80DBB6 /* Pods-DevtorExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DevtorExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34CC06828F95A493F62F46E5F18B4771 /* DevtorExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DevtorExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		34CC06828F95A493F62F46E5F18B4771 /* DevtorExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DevtorExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		43AC6897BDAC5CB946A0D0426F669D3F /* Pods-DevtorExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DevtorExtension_Example-dummy.m"; sourceTree = "<group>"; };
 		49A8C99164447C49EEDAF949E9400812 /* DevtorExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DevtorExtension-dummy.m"; sourceTree = "<group>"; };
+		4F00BBF022F81117002D3E3E /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = DevtorExtension/Classes/StringExtension.swift; sourceTree = "<group>"; };
+		4F00BBF222F84761002D3E3E /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UINavigationControllerExtension.swift; path = DevtorExtension/Classes/UINavigationControllerExtension.swift; sourceTree = "<group>"; };
+		4FAF6CDC22F926900095E920 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIImageViewExtension.swift; path = DevtorExtension/Classes/UIImageViewExtension.swift; sourceTree = "<group>"; };
+		4FAF6CDE22F926A50095E920 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = DevtorExtension/Classes/UIImageExtension.swift; sourceTree = "<group>"; };
+		4FFE017322F438C00085D072 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = DevtorExtension/Classes/UIColorExtension.swift; sourceTree = "<group>"; };
 		6E12D61B62C7CA1A90E0A1DB44AA1E46 /* Pods-DevtorExtension_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DevtorExtension_Example-Info.plist"; sourceTree = "<group>"; };
-		7552319372512969864CE1C7F58DE138 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7552319372512969864CE1C7F58DE138 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		897D96B0FC248F9D035D37FD1A950125 /* DevtorExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DevtorExtension-umbrella.h"; sourceTree = "<group>"; };
 		8D6E63D1674638E65414099BE6854407 /* Pods-DevtorExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DevtorExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		914A0108E4532277695957896C39FE0A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DevtorExtension/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		91FCD1F9063AB7A06A85A60D267EE60F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		939CDF4A37CC1135820EC8AEEE6D919F /* Pods_DevtorExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DevtorExtension_Tests.framework; path = "Pods-DevtorExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91FCD1F9063AB7A06A85A60D267EE60F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		939CDF4A37CC1135820EC8AEEE6D919F /* Pods_DevtorExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevtorExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD2535ECA1642E49747E0078546CEB69 /* Pods-DevtorExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DevtorExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B4BF0750665D3816C7BB2A03FC9A2B58 /* Pods-DevtorExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DevtorExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C5EDB4356FDCD133C12EB2291018B11A /* DevtorExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DevtorExtension.framework; path = DevtorExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5EDB4356FDCD133C12EB2291018B11A /* DevtorExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DevtorExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB92F6AAE871043BDEEB3CD9E4B6EE2 /* Pods-DevtorExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DevtorExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CC93F09C37F528F9E866CF7DA6CA655E /* Pods-DevtorExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DevtorExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D25BB58756EAEA2449B7F412011360C7 /* DevtorExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DevtorExtension.modulemap; sourceTree = "<group>"; };
@@ -185,9 +193,13 @@
 		C7D246F327C4F8D92A8CF4C8FAC35A72 /* DevtorExtension */ = {
 			isa = PBXGroup;
 			children = (
-				914A0108E4532277695957896C39FE0A /* ReplaceMe.swift */,
 				22000FE4DA32524C375605034C0B3950 /* Pod */,
 				48CF0EB196A8F78C013A61B5D5A8DB33 /* Support Files */,
+				4FFE017322F438C00085D072 /* UIColorExtension.swift */,
+				4F00BBF022F81117002D3E3E /* StringExtension.swift */,
+				4F00BBF222F84761002D3E3E /* UINavigationControllerExtension.swift */,
+				4FAF6CDC22F926900095E920 /* UIImageViewExtension.swift */,
+				4FAF6CDE22F926A50095E920 /* UIImageExtension.swift */,
 			);
 			name = DevtorExtension;
 			path = ../..;
@@ -364,8 +376,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FAF6CDD22F926900095E920 /* UIImageViewExtension.swift in Sources */,
 				AB5BDBB99023335928AB3202006AE2E6 /* DevtorExtension-dummy.m in Sources */,
-				4A011E67CF5326BF3272398E5F3D3B6F /* ReplaceMe.swift in Sources */,
+				4FFE017422F438C00085D072 /* UIColorExtension.swift in Sources */,
+				4F00BBF122F81117002D3E3E /* StringExtension.swift in Sources */,
+				4F00BBF322F84761002D3E3E /* UINavigationControllerExtension.swift in Sources */,
+				4FAF6CDF22F926A50095E920 /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,7 +502,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DevtorExtension/DevtorExtension-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DevtorExtension/DevtorExtension-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DevtorExtension/DevtorExtension.modulemap";
 				PRODUCT_MODULE_NAME = DevtorExtension;
@@ -616,13 +632,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -679,7 +694,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -708,7 +723,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DevtorExtension/DevtorExtension-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DevtorExtension/DevtorExtension-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DevtorExtension/DevtorExtension.modulemap";
 				PRODUCT_MODULE_NAME = DevtorExtension;
