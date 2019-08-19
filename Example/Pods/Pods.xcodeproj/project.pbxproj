@@ -12,6 +12,7 @@
 		4F00BBF322F84761002D3E3E /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F00BBF222F84761002D3E3E /* UINavigationControllerExtension.swift */; };
 		4FAF6CDD22F926900095E920 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAF6CDC22F926900095E920 /* UIImageViewExtension.swift */; };
 		4FAF6CDF22F926A50095E920 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAF6CDE22F926A50095E920 /* UIImageExtension.swift */; };
+		4FEE60832306884A00CFEE4B /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE60822306884A00CFEE4B /* KeyboardLayoutConstraint.swift */; };
 		4FFE017422F438C00085D072 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFE017322F438C00085D072 /* UIColorExtension.swift */; };
 		62FC71FC387233F88893548C6BDC0C29 /* DevtorExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 897D96B0FC248F9D035D37FD1A950125 /* DevtorExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		900322E9F34AF039035DBA8CE2180657 /* Pods-DevtorExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8883C9DC50DCCF56160284BAC58E52B /* Pods-DevtorExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -56,6 +57,7 @@
 		4F00BBF222F84761002D3E3E /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UINavigationControllerExtension.swift; path = DevtorExtension/Classes/UINavigationControllerExtension.swift; sourceTree = "<group>"; };
 		4FAF6CDC22F926900095E920 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIImageViewExtension.swift; path = DevtorExtension/Classes/UIImageViewExtension.swift; sourceTree = "<group>"; };
 		4FAF6CDE22F926A50095E920 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = DevtorExtension/Classes/UIImageExtension.swift; sourceTree = "<group>"; };
+		4FEE60822306884A00CFEE4B /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = DevtorExtension/Classes/KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
 		4FFE017322F438C00085D072 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = DevtorExtension/Classes/UIColorExtension.swift; sourceTree = "<group>"; };
 		6E12D61B62C7CA1A90E0A1DB44AA1E46 /* Pods-DevtorExtension_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DevtorExtension_Example-Info.plist"; sourceTree = "<group>"; };
 		7552319372512969864CE1C7F58DE138 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 				4F00BBF222F84761002D3E3E /* UINavigationControllerExtension.swift */,
 				4FAF6CDC22F926900095E920 /* UIImageViewExtension.swift */,
 				4FAF6CDE22F926A50095E920 /* UIImageExtension.swift */,
+				4FEE60822306884A00CFEE4B /* KeyboardLayoutConstraint.swift */,
 			);
 			name = DevtorExtension;
 			path = ../..;
@@ -380,6 +383,7 @@
 				AB5BDBB99023335928AB3202006AE2E6 /* DevtorExtension-dummy.m in Sources */,
 				4FFE017422F438C00085D072 /* UIColorExtension.swift in Sources */,
 				4F00BBF122F81117002D3E3E /* StringExtension.swift in Sources */,
+				4FEE60832306884A00CFEE4B /* KeyboardLayoutConstraint.swift in Sources */,
 				4F00BBF322F84761002D3E3E /* UINavigationControllerExtension.swift in Sources */,
 				4FAF6CDF22F926A50095E920 /* UIImageExtension.swift in Sources */,
 			);
