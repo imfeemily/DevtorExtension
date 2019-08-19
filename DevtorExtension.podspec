@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DevtorExtension'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Devtor extension is very easy to use for developer who is lazy for long code'
   s.swift_version    = '4.0'
   
